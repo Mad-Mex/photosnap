@@ -85,9 +85,7 @@ const HeroStripe = styled.div `
 `
 
 
-
-
-export const HeroFeature1 = () => {
+export const Hero1 = () => {
 
   return (
 
@@ -114,7 +112,7 @@ export const HeroFeature1 = () => {
 
 
 
-export const HeroFeature2 = () => {
+export const Hero2 = () => {
 
   return (
 
@@ -142,7 +140,7 @@ export const HeroFeature2 = () => {
 
 
 
-export const HeroFeature3 = () => {
+export const Hero3 = () => {
 
   return (
 

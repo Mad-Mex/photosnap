@@ -1,8 +1,7 @@
 import React from 'react'
 import { ContainerFeaturesSelection } from '../components/ContainerFeatures/ContainerFeaturesSelection'
 import { GridStoriesSelection } from '../components/GridStories/GridStoriesSelection'
-import { HeroFeature1, HeroFeature2, HeroFeature3 } from '../components/Hero/HeroFeature'
-import { Footer } from '../components/navigation/Footer/Footer'
+import { Hero1, Hero2, Hero3 } from '../components/Hero/Hero'
 
 export const HomePage = () => {
 
@@ -10,17 +9,17 @@ export const HomePage = () => {
 
     <div>
 
-        {/*Hero Feature*/}
+        {/*Hero*/}
         <section>
-            <HeroFeature1 />
+            <Hero1 />
         </section>
 
         <section>
-            <HeroFeature2 />
+            <Hero2 />
         </section>
 
         <section>
-            <HeroFeature3 />
+            <Hero3 />
         </section>
 
 
